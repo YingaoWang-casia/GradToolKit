@@ -1,0 +1,98 @@
+version: 0.1.0
+updated: 2026-06-09
+tools:
+  - name: Zotero
+    category: literature-management
+    official_url: https://www.zotero.org/
+    pricing: free
+    platforms: [Windows, macOS, Linux, Web]
+    learning_curve: low
+    best_for: [文献管理, PDF 标注, 引用导出, 浏览器一键收藏]
+    works_well_with: [Better BibTeX, Obsidian, Overleaf, Word]
+    alternatives: [Mendeley, EndNote, Paperpile]
+    not_good_for: [独立承担长期知识写作, 自动判断论文质量]
+    cautions: [不要只收藏 PDF, 需要定期清理标签和重复条目]
+
+  - name: Obsidian
+    category: note-taking
+    official_url: https://obsidian.md/
+    pricing: freemium
+    platforms: [Windows, macOS, Linux, iOS, Android]
+    learning_curve: medium
+    best_for: [本地 Markdown 笔记, 论文卡片, 长期知识库]
+    works_well_with: [Zotero, Dataview, Git, Readwise]
+    alternatives: [Logseq, Notion, Foam]
+    not_good_for: [需要强协作的团队文档, 不愿意维护文件结构的人]
+    cautions: [插件不要一次装太多, 先用文件夹和标签跑通流程]
+
+  - name: Notion
+    category: knowledge-management
+    official_url: https://www.notion.com/
+    pricing: freemium
+    platforms: [Web, Windows, macOS, iOS, Android]
+    learning_curve: low
+    best_for: [项目看板, 计划管理, 周报, 可视化数据库]
+    works_well_with: [Google Calendar, Notion AI]
+    alternatives: [Obsidian, Coda, Airtable]
+    not_good_for: [大量离线论文笔记, 严格本地私有数据]
+    cautions: [不要沉迷美化模板, 先建立固定复盘节奏]
+
+  - name: Semantic Scholar
+    category: paper-discovery
+    official_url: https://www.semanticscholar.org/
+    pricing: free
+    platforms: [Web]
+    learning_curve: low
+    best_for: [论文发现, 引用网络, 相关论文扩展]
+    works_well_with: [Zotero, ResearchRabbit, Google Scholar]
+    alternatives: [Google Scholar, OpenAlex, Lens]
+    not_good_for: [替代原文阅读]
+    cautions: [相关性排序不是领域判断, 需要回到 venue 和引用上下文]
+
+  - name: ResearchRabbit
+    category: paper-discovery
+    official_url: https://www.researchrabbit.ai/
+    pricing: free
+    platforms: [Web]
+    learning_curve: low
+    best_for: [从种子论文扩展论文网络, 发现相似作者和方向]
+    works_well_with: [Zotero, Semantic Scholar]
+    alternatives: [Connected Papers, Litmaps]
+    not_good_for: [替代系统综述方法]
+    cautions: [扩展出来的论文要做人工筛选和分组]
+
+  - name: Overleaf
+    category: writing
+    official_url: https://www.overleaf.com/
+    pricing: freemium
+    platforms: [Web]
+    learning_curve: medium
+    best_for: [LaTeX 论文写作, 合作写作, 模板复用]
+    works_well_with: [Zotero, Better BibTeX, GitHub]
+    alternatives: [本地 TeX Live, Typst, Word]
+    not_good_for: [完全不需要公式和排版控制的短文档]
+    cautions: [尽早建立 bib 文件和图表目录规范]
+
+  - name: Git
+    category: experiment-management
+    official_url: https://git-scm.com/
+    pricing: free
+    platforms: [Windows, macOS, Linux]
+    learning_curve: medium
+    best_for: [代码版本管理, 实验脚本追踪, 协作]
+    works_well_with: [GitHub, VS Code, DVC]
+    alternatives: [GitHub Desktop]
+    not_good_for: [大文件和模型权重直接管理]
+    cautions: [不要把数据集、权重和隐私配置直接提交]
+
+  - name: ChatGPT
+    category: ai-research-assistant
+    official_url: https://chatgpt.com/
+    pricing: freemium
+    platforms: [Web, Desktop, Mobile]
+    learning_curve: low
+    best_for: [写作润色, 代码辅助, 思路拆解, 复盘问答]
+    works_well_with: [Zotero, Overleaf, GitHub, Python]
+    alternatives: [Claude, Gemini, Perplexity]
+    not_good_for: [生成未验证引用, 直接替代实验和阅读]
+    cautions: [不要上传敏感数据, 所有引用和数字都要核验]
