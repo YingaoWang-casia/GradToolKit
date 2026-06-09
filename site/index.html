@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GradToolKit - 研究生场景化工具箱</title>
+    <meta
+      name="description"
+      content="GradToolKit 是一个面向研究生的场景化科研工具箱，覆盖文献阅读、综述、实验管理、组会、写作、AI 辅助科研和求职准备。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html">GradToolKit</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#paths">路线</a>
+        <a href="#workflows">工作流</a>
+        <a href="#templates">模板</a>
+        <a href="#roadmap">路线图</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">研究生场景化科研工具箱</p>
+          <h1>少折腾工具，多推进研究。</h1>
+          <p class="lead">
+            GradToolKit 按研究生真实任务组织工具、流程和模板：文献阅读、文献综述、实验记录、组会汇报、论文写作、AI 辅助科研和求职准备。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#paths">选择你的阶段</a>
+            <a class="button secondary" href="#templates">查看模板</a>
+          </div>
+        </div>
+        <img
+          class="hero-image"
+          src="./assets/workflow-board.svg"
+          alt="Research workflow board with papers, cards, charts, and a laptop"
+        />
+      </section>
+
+      <section id="paths" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2>你现在处在哪个阶段</h2>
+          <p>先选场景，再选工具。第一版优先覆盖研究生日常最常遇到的八类任务。</p>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <span class="step">01</span>
+            <h3>研一刚进组</h3>
+            <p>用 Zotero、Obsidian/Notion、Scholar、Git 跑通最小科研工具链。</p>
+            <a href="../docs/start-here.md">阅读 Markdown</a>
+          </article>
+          <article class="card">
+            <span class="step">02</span>
+            <h3>第一次做文献综述</h3>
+            <p>从种子论文、论文网络、文献矩阵到 related work 大纲。</p>
+            <a href="../docs/literature-review.md">阅读 Markdown</a>
+          </article>
+          <article class="card">
+            <span class="step">03</span>
+            <h3>读论文读不动</h3>
+            <p>用三层阅读法和固定字段，把论文变成可复用判断。</p>
+            <a href="../docs/paper-reading.md">阅读 Markdown</a>
+          </article>
+          <article class="card">
+            <span class="step">04</span>
+            <h3>实验越跑越乱</h3>
+            <p>建立 run id、参数、数据、指标、commit 和复盘记录。</p>
+            <a href="../docs/experiment-management.md">阅读 Markdown</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflows" class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow first</p>
+          <h2>不是工具大全，而是可执行流程</h2>
+        </div>
+        <div class="workflow">
+          <div class="workflow-item">
+            <strong>文献综述</strong>
+            <p>Scholar 找种子论文，ResearchRabbit 扩展网络，Zotero 管理 PDF，文献矩阵沉淀脉络。</p>
+          </div>
+          <div class="workflow-item">
+            <strong>论文阅读</strong>
+            <p>先快筛，再结构化阅读，只有 closest prior work、baseline 和关键论文才深读。</p>
+          </div>
+          <div class="workflow-item">
+            <strong>实验管理</strong>
+            <p>先用 Git 和 Markdown 日志管理，再按复杂度升级到 W&B、MLflow 或 DVC。</p>
+          </div>
+          <div class="workflow-item">
+            <strong>AI 辅助科研</strong>
+            <p>AI 负责整理、改写和检查，论文结论、引用和实验数字必须回到原文和记录核验。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="templates" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Reusable templates</p>
+          <h2>第一版模板库</h2>
+          <p>这些模板都在 `templates/` 目录里，可以直接复制到你的笔记库或项目目录。</p>
+        </div>
+        <div class="template-list">
+          <a href="../templates/paper-note-template.md">论文阅读模板</a>
+          <a href="../templates/literature-review-matrix.md">文献综述矩阵</a>
+          <a href="../templates/experiment-log-template.md">实验记录模板</a>
+          <a href="../templates/weekly-report-template.md">组会周报模板</a>
+          <a href="../templates/advisor-meeting-template.md">导师沟通记录模板</a>
+          <a href="../templates/thesis-outline-template.md">论文大纲模板</a>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section split">
+        <div>
+          <p class="eyebrow">Expected effect</p>
+          <h2>预期效果</h2>
+          <p>
+            第一版上线后，它应该是一个能被研究生收藏、转发、照着做的工具箱，而不是一个看完就忘的工具清单。
+          </p>
+        </div>
+        <ul class="checklist">
+          <li>30 秒内知道项目有什么用</li>
+          <li>按阶段找到自己的入口</li>
+          <li>每个场景都有推荐工具、最小流程和避坑</li>
+          <li>模板能直接复制使用</li>
+          <li>别人可以通过 `tools.yaml` 贡献新工具</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>GradToolKit</span>
+      <span>Apache-2.0 Licensed</span>
+    </footer>
+  </body>
+</html>
