@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">GradToolKit research workflow board</title>
+  <desc id="desc">A clean abstract research workspace with papers, cards, charts, and a laptop.</desc>
+  <rect width="960" height="540" fill="#f7fbf9"/>
+  <rect x="78" y="70" width="804" height="400" rx="8" fill="#ffffff" stroke="#d8e2de" stroke-width="2"/>
+  <rect x="120" y="108" width="320" height="210" rx="8" fill="#0f766e"/>
+  <rect x="145" y="134" width="270" height="18" rx="4" fill="#e6fffb" opacity=".9"/>
+  <rect x="145" y="172" width="205" height="12" rx="4" fill="#bdeee8"/>
+  <rect x="145" y="200" width="238" height="12" rx="4" fill="#bdeee8"/>
+  <rect x="145" y="228" width="180" height="12" rx="4" fill="#bdeee8"/>
+  <rect x="488" y="108" width="148" height="92" rx="8" fill="#ecfeff" stroke="#99f6e4"/>
+  <rect x="664" y="108" width="148" height="92" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <rect x="488" y="226" width="148" height="92" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <rect x="664" y="226" width="148" height="92" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="522" cy="140" r="13" fill="#0f766e"/>
+  <circle cx="698" cy="140" r="13" fill="#a16207"/>
+  <circle cx="522" cy="258" r="13" fill="#16a34a"/>
+  <circle cx="698" cy="258" r="13" fill="#475569"/>
+  <path d="M545 146h60M721 146h60M545 264h60M721 264h60" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M418 370h122" stroke="#0f766e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M418 406h210" stroke="#d97706" stroke-width="12" stroke-linecap="round"/>
+  <path d="M418 442h166" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <rect x="122" y="356" width="230" height="92" rx="8" fill="#f8fafc" stroke="#d8e2de"/>
+  <path d="M150 386h170M150 416h120" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
+  <rect x="688" y="354" width="126" height="94" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <path d="M718 390h66M718 420h44" stroke="#c2410c" stroke-width="9" stroke-linecap="round"/>
+</svg>
