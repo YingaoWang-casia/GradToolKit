@@ -8,6 +8,9 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 
 - [我刚进组，不知道科研每天做什么](docs/start-here.md)
 - [我想在 30 天内建立最小科研闭环](docs/first-30-days.md)
+- [导师只给了一个宽泛方向，我不知道如何调研](docs/direction-mapping.md)
+- [我需要第一次复现 baseline](docs/baseline-reproduction.md)
+- [我要准备第一次组会](docs/weekly-meeting-case.md)
 - [我读了很多论文，但仍然没有研究问题](docs/problem-formulation.md)
 - [我有一个 idea，不知道是不是伪创新](docs/idea-audit.md)
 - [我不知道怎样设计能说明问题的实验](docs/experiment-design.md)
@@ -46,6 +49,9 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 
 - [研一刚进组工具栈](docs/start-here.md)
 - [新人 30 天路线](docs/first-30-days.md)
+- [两周建立研究方向地图](docs/direction-mapping.md)
+- [第一次复现 Baseline](docs/baseline-reproduction.md)
+- [第一次组会：从流水账到研究判断](docs/weekly-meeting-case.md)
 - [论文阅读笔记工作流](docs/paper-reading.md)
 - [第一次做文献综述](docs/literature-review.md)
 - [组会汇报准备](docs/weekly-meeting.md)
@@ -77,6 +83,9 @@ AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作�
 当前入口：
 
 - [新人 30 天路线](docs/first-30-days.md)
+- [两周建立研究方向地图](docs/direction-mapping.md)
+- [第一次复现 Baseline](docs/baseline-reproduction.md)
+- [第一次组会案例](docs/weekly-meeting-case.md)
 - [论文写作工具选择](docs/thesis-writing.md)
 - [研究生实习求职工具链](docs/internship-tools.md)
 
@@ -106,14 +115,15 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 ## 第一个研究项目的最小路线
 
 ```text
-方向地图
+两周方向地图
 → closest prior work
 → 问题定义
 → 核心假设
 → 最小验证
-→ baseline
+→ baseline 复现
 → 主实验与消融
 → failure analysis
+→ 组会决策
 → 写作与自审
 ```
 
@@ -131,8 +141,8 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 
 ## 四阶段改造计划
 
-1. **定位与核心骨架**：重写首页，建立新人入口、科研方法和任务式导航；补充最小科研闭环、问题定义、idea 审计、实验设计和失败诊断。
-2. **科研入门与案例**：扩展新人路线、文献调研、baseline 复现、组会和贯穿案例。
+1. **定位与核心骨架（已完成）**：重写首页，建立新人入口、科研方法和任务式导航；补充最小科研闭环、问题定义、idea 审计、实验设计和失败诊断。
+2. **科研入门与案例（已完成）**：补充两周方向调研、baseline 复现和第一次组会案例，将科研原则转成可执行流程。
 3. **AI 辅助科研**：补充检索、阅读、idea 批判、实验审计、代码、写作、引用核验与隐私规范。
 4. **工具与阶段导航**：补充 AI LaTeX 编辑器 Prism、Overleaf、科研绘图、实验工具，以及投稿、rebuttal、毕业和求职导航。
 
