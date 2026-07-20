@@ -16,12 +16,11 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 - [我不知道怎样设计能说明问题的实验](docs/experiment-design.md)
 - [实验一直失败，不知道该继续还是止损](docs/research-debugging.md)
 - [我想合理使用 AI 辅助科研](docs/ai-research-tools.md)
-- [我想用 AI 辅助文献检索和阅读](docs/ai-literature-workflow.md)
-- [我想让 AI 严格审查 idea 和实验](docs/ai-idea-experiment-review.md)
-- [我想用 AI 辅助代码和数据分析](docs/ai-coding-data-analysis.md)
-- [我想用 AI 检查论文写作和引用](docs/ai-writing-citation.md)
-- [我需要选择论文写作工具](docs/thesis-writing.md)
-- [我需要整理实验与版本](docs/experiment-management.md)
+- [我想使用 Prism 或 Overleaf 写论文](docs/prism-overleaf.md)
+- [我需要制作可复现科研图表](docs/research-plotting.md)
+- [我需要选择实验追踪与版本工具](docs/experiment-tools.md)
+- [我正在准备投稿或 rebuttal](docs/submission-rebuttal.md)
+- [我想按研究生阶段规划科研任务](docs/graduate-roadmap.md)
 
 ## 核心方法：科研不是跑分，而是减少不确定性
 
@@ -49,8 +48,6 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 
 ### A. 科研新人入口
 
-帮助没有科研经验的人理解科研日常、建立方向地图、复现 baseline、准备第一次组会，并在 30 天内跑通一个最小闭环。
-
 - [研一刚进组工具栈](docs/start-here.md)
 - [新人 30 天路线](docs/first-30-days.md)
 - [两周建立研究方向地图](docs/direction-mapping.md)
@@ -58,11 +55,8 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 - [第一次组会：从流水账到研究判断](docs/weekly-meeting-case.md)
 - [论文阅读笔记工作流](docs/paper-reading.md)
 - [第一次做文献综述](docs/literature-review.md)
-- [组会汇报准备](docs/weekly-meeting.md)
 
 ### B. 严格科研方法
-
-这是项目的核心。重点不是教人包装结果，而是形成可以被反驳、被验证和被复现的研究判断。
 
 - [科研最小闭环](docs/research-loop.md)
 - [如何定义研究问题](docs/problem-formulation.md)
@@ -72,8 +66,6 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 
 ### C. AI 辅助科研专题
 
-AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作润色和模拟审稿，但不能替研究者决定 novelty、解释实验结果或承担学术责任。
-
 - [AI 辅助科研：原则、边界与核验闭环](docs/ai-research-tools.md)
 - [AI 辅助文献检索与论文阅读](docs/ai-literature-workflow.md)
 - [AI 批判 Idea 与实验设计](docs/ai-idea-experiment-review.md)
@@ -82,19 +74,14 @@ AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作�
 - [隐私、保密与学术规范](docs/ai-privacy-ethics.md)
 - [可复用提示词与核验模板](docs/ai-prompt-templates.md)
 
-本专题不推荐把模型当成答案生成器，而是把它放进“材料约束—候选输出—证据核验—研究者决策”的闭环中。
+AI 应放进“材料约束—候选输出—证据核验—研究者决策”的闭环，而不是被当作答案生成器。
 
 ### D. 研究生阶段导航
 
-按研一入门、第一项研究、第一篇论文、投稿与 rebuttal、毕业和求职组织已有内容，避免把仓库变成互不关联的文章列表。
-
-当前入口：
-
+- [研究生科研阶段导航](docs/graduate-roadmap.md)
 - [新人 30 天路线](docs/first-30-days.md)
-- [两周建立研究方向地图](docs/direction-mapping.md)
-- [第一次复现 Baseline](docs/baseline-reproduction.md)
-- [第一次组会案例](docs/weekly-meeting-case.md)
-- [论文写作工具选择](docs/thesis-writing.md)
+- [第一篇论文写作工具选择](docs/thesis-writing.md)
+- [投稿与 Rebuttal](docs/submission-rebuttal.md)
 - [研究生实习求职工具链](docs/internship-tools.md)
 
 ## 科研工具箱
@@ -110,15 +97,16 @@ AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作�
 | 模型结构与流程图 | PowerPoint、draw.io | Figma、Inkscape、TikZ |
 | 组会与项目管理 | Markdown、PowerPoint | Notion、Marp、飞书文档 |
 
-本项目不会默认把某个工具称为“最佳工具”。每篇工具内容都应说明：适用任务、不适用情况、最小流程、验证方法、替代方案以及迁移成本。
+工具指南：
 
-已有内容：
-
+- [Prism 与 Overleaf：AI LaTeX 写作工作流](docs/prism-overleaf.md)
+- [科研绘图：从原始数据到可复现图表](docs/research-plotting.md)
+- [实验工具选择：从本地日志到 W&B、MLflow 与 DVC](docs/experiment-tools.md)
 - [实验记录与版本管理](docs/experiment-management.md)
 - [论文写作工具选择](docs/thesis-writing.md)
 - [Zotero + Obsidian 工作流](docs/zotero-obsidian.md)
 
-AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶段单独补充。目前不要把 GraphPad Prism 与 AI LaTeX 编辑器 Prism 混为同一个工具。
+本文所说的 Prism 是 **OpenAI Prism AI LaTeX 编辑器**，不是 GraphPad Prism。GraphPad Prism 仅在统计分析与科研绘图语境中出现。
 
 ## 第一个研究项目的最小路线
 
@@ -133,6 +121,7 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 → failure analysis
 → 组会决策
 → 写作与自审
+→ 投稿与 rebuttal
 ```
 
 这条路线不是固定流水线。任何阶段发现证据不足，都应回到问题、假设或实验设计，而不是继续堆叠方法模块。
@@ -149,10 +138,10 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 
 ## 四阶段改造计划
 
-1. **定位与核心骨架（已完成）**：重写首页，建立新人入口、科研方法和任务式导航；补充最小科研闭环、问题定义、idea 审计、实验设计和失败诊断。
-2. **科研入门与案例（已完成）**：补充两周方向调研、baseline 复现和第一次组会案例，将科研原则转成可执行流程。
-3. **AI 辅助科研（已完成）**：补充检索、阅读、idea 批判、实验审计、代码、写作、引用核验、提示词与隐私规范。
-4. **工具与阶段导航**：补充 AI LaTeX 编辑器 Prism、Overleaf、科研绘图、实验工具，以及投稿、rebuttal、毕业和求职导航。
+1. **定位与核心骨架（已完成）**：任务式首页、科研闭环、问题定义、idea 审计、实验设计和失败诊断。
+2. **科研入门与案例（已完成）**：方向调研、baseline 复现和第一次组会案例。
+3. **AI 辅助科研（已完成）**：检索、阅读、idea 批判、实验审计、代码、写作、引用核验、提示词与隐私规范。
+4. **工具与阶段导航（已完成）**：Prism、Overleaf、科研绘图、实验工具、投稿、rebuttal、毕业和求职导航。
 
 ## 模板库
 
@@ -165,13 +154,11 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 
 ## 本地预览
 
-零构建静态站点：
-
 ```bash
 python3 -m http.server 8080 -d site
 ```
 
-VitePress 文档站：
+VitePress：
 
 ```bash
 npm install
