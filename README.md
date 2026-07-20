@@ -16,6 +16,10 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 - [我不知道怎样设计能说明问题的实验](docs/experiment-design.md)
 - [实验一直失败，不知道该继续还是止损](docs/research-debugging.md)
 - [我想合理使用 AI 辅助科研](docs/ai-research-tools.md)
+- [我想用 AI 辅助文献检索和阅读](docs/ai-literature-workflow.md)
+- [我想让 AI 严格审查 idea 和实验](docs/ai-idea-experiment-review.md)
+- [我想用 AI 辅助代码和数据分析](docs/ai-coding-data-analysis.md)
+- [我想用 AI 检查论文写作和引用](docs/ai-writing-citation.md)
 - [我需要选择论文写作工具](docs/thesis-writing.md)
 - [我需要整理实验与版本](docs/experiment-management.md)
 
@@ -70,11 +74,15 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 
 AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作润色和模拟审稿，但不能替研究者决定 novelty、解释实验结果或承担学术责任。
 
-当前入口：
+- [AI 辅助科研：原则、边界与核验闭环](docs/ai-research-tools.md)
+- [AI 辅助文献检索与论文阅读](docs/ai-literature-workflow.md)
+- [AI 批判 Idea 与实验设计](docs/ai-idea-experiment-review.md)
+- [AI 辅助代码、实验与数据分析](docs/ai-coding-data-analysis.md)
+- [AI 辅助论文写作与引用核验](docs/ai-writing-citation.md)
+- [隐私、保密与学术规范](docs/ai-privacy-ethics.md)
+- [可复用提示词与核验模板](docs/ai-prompt-templates.md)
 
-- [AI 辅助科研边界](docs/ai-research-tools.md)
-
-后续阶段将补充完整工作流，包括文献检索、论文阅读、idea 批判、实验审查、代码调试、写作核验和隐私规范。
+本专题不推荐把模型当成答案生成器，而是把它放进“材料约束—候选输出—证据核验—研究者决策”的闭环中。
 
 ### D. 研究生阶段导航
 
@@ -143,7 +151,7 @@ AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶�
 
 1. **定位与核心骨架（已完成）**：重写首页，建立新人入口、科研方法和任务式导航；补充最小科研闭环、问题定义、idea 审计、实验设计和失败诊断。
 2. **科研入门与案例（已完成）**：补充两周方向调研、baseline 复现和第一次组会案例，将科研原则转成可执行流程。
-3. **AI 辅助科研**：补充检索、阅读、idea 批判、实验审计、代码、写作、引用核验与隐私规范。
+3. **AI 辅助科研（已完成）**：补充检索、阅读、idea 批判、实验审计、代码、写作、引用核验、提示词与隐私规范。
 4. **工具与阶段导航**：补充 AI LaTeX 编辑器 Prism、Overleaf、科研绘图、实验工具，以及投稿、rebuttal、毕业和求职导航。
 
 ## 模板库
