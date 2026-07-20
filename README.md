@@ -12,13 +12,13 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 - [我有一个 idea，不知道是不是伪创新](docs/idea-audit.md)
 - [我不知道怎样设计能说明问题的实验](docs/experiment-design.md)
 - [实验一直失败，不知道该继续还是止损](docs/research-debugging.md)
-- [我想合理使用 AI 辅助科研](docs/ai-research-workflow.md)
-- [我想使用 Prism 或 Overleaf 辅助论文写作](docs/prism-overleaf.md)
-- [我需要选择科研绘图工具](docs/research-plotting.md)
+- [我想合理使用 AI 辅助科研](docs/ai-research-tools.md)
+- [我需要选择论文写作工具](docs/thesis-writing.md)
+- [我需要整理实验与版本](docs/experiment-management.md)
 
 ## 核心方法：科研不是跑分，而是减少不确定性
 
-推荐先阅读：
+建议依次阅读：
 
 1. [科研最小闭环](docs/research-loop.md)
 2. [如何定义研究问题](docs/problem-formulation.md)
@@ -38,49 +38,72 @@ GradToolKit 是一个面向计算机、人工智能与数据驱动研究方向�
 下一步应扩展、修正还是停止？
 ```
 
-## AI 辅助科研专题
+## 四层内容结构
 
-AI 可以用于检索辅助、结构化阅读、代码检查、实验审计、写作润色和模拟审稿，但不能替你承担研究结论与学术责任。
+### A. 科研新人入口
 
-- [AI 辅助科研完整工作流](docs/ai-research-workflow.md)
-- [AI 辅助科研边界](docs/ai-research-tools.md)
+帮助没有科研经验的人理解科研日常、建立方向地图、复现 baseline、准备第一次组会，并在 30 天内跑通一个最小闭环。
+
+- [研一刚进组工具栈](docs/start-here.md)
+- [新人 30 天路线](docs/first-30-days.md)
 - [论文阅读笔记工作流](docs/paper-reading.md)
 - [第一次做文献综述](docs/literature-review.md)
+- [组会汇报准备](docs/weekly-meeting.md)
+
+### B. 严格科研方法
+
+这是项目的核心。重点不是教人包装结果，而是形成可以被反驳、被验证和被复现的研究判断。
+
+- [科研最小闭环](docs/research-loop.md)
+- [如何定义研究问题](docs/problem-formulation.md)
+- [Idea 与 novelty 审计](docs/idea-audit.md)
+- [实验设计](docs/experiment-design.md)
+- [失败诊断与研究止损](docs/research-debugging.md)
+
+### C. AI 辅助科研专题
+
+AI 可以辅助检索、结构化阅读、代码检查、实验审计、写作润色和模拟审稿，但不能替研究者决定 novelty、解释实验结果或承担学术责任。
+
+当前入口：
+
+- [AI 辅助科研边界](docs/ai-research-tools.md)
+
+后续阶段将补充完整工作流，包括文献检索、论文阅读、idea 批判、实验审查、代码调试、写作核验和隐私规范。
+
+### D. 研究生阶段导航
+
+按研一入门、第一项研究、第一篇论文、投稿与 rebuttal、毕业和求职组织已有内容，避免把仓库变成互不关联的文章列表。
+
+当前入口：
+
+- [新人 30 天路线](docs/first-30-days.md)
+- [论文写作工具选择](docs/thesis-writing.md)
+- [研究生实习求职工具链](docs/internship-tools.md)
 
 ## 科研工具箱
 
-工具按任务组织，而不是按软件名称堆积。
+工具按科研任务组织，而不是按软件名称堆积。
 
 | 科研任务 | 入门工具 | 升级或替代方案 |
 | --- | --- | --- |
 | 文献检索与管理 | Google Scholar、Semantic Scholar、Zotero | ResearchRabbit、Connected Papers、Scite |
 | 实验记录与复现 | Git、Markdown、CSV | W&B、MLflow、Hydra、DVC、Docker |
 | 数据分析与科研绘图 | Python、R、Excel | Origin、GraphPad Prism、PGFPlots |
-| LaTeX 写作与协作 | Overleaf | Prism、本地 LaTeX、Typst |
+| LaTeX 写作与协作 | Overleaf | AI LaTeX 编辑器 Prism、本地 LaTeX、Typst |
 | 模型结构与流程图 | PowerPoint、draw.io | Figma、Inkscape、TikZ |
 | 组会与项目管理 | Markdown、PowerPoint | Notion、Marp、飞书文档 |
 
-相关阅读：
+本项目不会默认把某个工具称为“最佳工具”。每篇工具内容都应说明：适用任务、不适用情况、最小流程、验证方法、替代方案以及迁移成本。
+
+已有内容：
 
 - [实验记录与版本管理](docs/experiment-management.md)
-- [科研绘图：从数据到可复现图表](docs/research-plotting.md)
-- [Prism 与 Overleaf：AI LaTeX 写作工作流](docs/prism-overleaf.md)
 - [论文写作工具选择](docs/thesis-writing.md)
 - [Zotero + Obsidian 工作流](docs/zotero-obsidian.md)
 
-## 阶段导航
+AI LaTeX 编辑器 Prism、Overleaf 协作和科研绘图将在后续工具阶段单独补充。目前不要把 GraphPad Prism 与 AI LaTeX 编辑器 Prism 混为同一个工具。
 
-### 研一或刚换方向
-
-- 建立方向地图，而不是无限收藏论文。
-- 复现一个可信 baseline。
-- 能用“问题—证据—判断—下一步”完成组会。
-- 建立最小实验记录和版本管理。
-- 学会区分研究主题、研究问题和方法想法。
-
-推荐：[新人 30 天路线](docs/first-30-days.md)
-
-### 第一个研究项目
+## 第一个研究项目的最小路线
 
 ```text
 方向地图
@@ -94,11 +117,7 @@ AI 可以用于检索辅助、结构化阅读、代码检查、实验审计、�
 → 写作与自审
 ```
 
-### 投稿、毕业与求职
-
-- [组会汇报准备](docs/weekly-meeting.md)
-- [论文写作工具选择](docs/thesis-writing.md)
-- [研究生实习求职工具链](docs/internship-tools.md)
+这条路线不是固定流水线。任何阶段发现证据不足，都应回到问题、假设或实验设计，而不是继续堆叠方法模块。
 
 ## 项目原则
 
@@ -109,6 +128,13 @@ AI 可以用于检索辅助、结构化阅读、代码检查、实验审计、�
 - **记录失败**：失败实验用于更新假设，而不是从记录中删除。
 - **工具可替换**：给出选择边界，避免被单一软件绑定。
 - **AI 不代责**：AI 输出必须核验，最终结论由研究者负责。
+
+## 四阶段改造计划
+
+1. **定位与核心骨架**：重写首页，建立新人入口、科研方法和任务式导航；补充最小科研闭环、问题定义、idea 审计、实验设计和失败诊断。
+2. **科研入门与案例**：扩展新人路线、文献调研、baseline 复现、组会和贯穿案例。
+3. **AI 辅助科研**：补充检索、阅读、idea 批判、实验审计、代码、写作、引用核验与隐私规范。
+4. **工具与阶段导航**：补充 AI LaTeX 编辑器 Prism、Overleaf、科研绘图、实验工具，以及投稿、rebuttal、毕业和求职导航。
 
 ## 模板库
 
