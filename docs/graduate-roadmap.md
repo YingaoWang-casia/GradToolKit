@@ -66,13 +66,19 @@
 6. 再写 Related Work 和 Introduction。
 7. 最后写 Abstract、Conclusion 和 Limitations。
 8. 做内部审稿和引用核验。
+9. 根据主题匹配和证据成熟度选择投稿 venue，而不是只追最近 deadline。
 
 论文不是实验日志。只保留支持研究问题的证据，但不能隐藏反对核心结论的结果。
+
+选择投稿目标前，阅读：[顶会、顶刊与 CCFDDL](venues-deadlines.md)。
 
 ## 阶段四：投稿与 rebuttal
 
 投稿前：
 
+- 检查 venue scope 和最近两年的相关论文；
+- 区分 full paper、short、findings、workshop 和 demo；
+- 从官方 CFP 核验 abstract、正文和 supplementary deadline；
 - 检查匿名要求；
 - 验证模板和页数；
 - 清理 PDF 元数据；
@@ -81,9 +87,14 @@
 - 准备 supplementary material；
 - 让不熟悉项目的人复述论文贡献。
 
+CCFDDL 可以用于发现和提醒 deadline，但不能替代会议官网。时区、投稿轮次和论文类型必须单独核验。
+
 Rebuttal 的目标不是证明审稿人错了，而是减少误解并补充可验证证据。
 
-参见：[投稿与 Rebuttal](submission-rebuttal.md)
+参见：
+
+- [顶会、顶刊与 CCFDDL](venues-deadlines.md)
+- [投稿与 Rebuttal](submission-rebuttal.md)
 
 ## 阶段五：毕业与资产沉淀
 
