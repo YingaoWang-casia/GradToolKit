@@ -12,7 +12,7 @@ GradToolKit 是一个面向 **AI 与实证型计算机研究** 的科研入门�
 | --- | --- | --- |
 | 完全没有科研经验 | [刚进组从哪里开始](docs/start-here.md) → [新人 30 天路线](docs/first-30-days.md) → [两周建立方向地图](docs/direction-mapping.md) | 建立方向认知、复现 baseline、完成第一次证据式组会 |
 | 已经有项目，但问题不清或实验卡住 | [科研最小闭环](docs/research-loop.md) → [问题定义](docs/problem-formulation.md) → [实验设计](docs/experiment-design.md) → [失败诊断](docs/research-debugging.md) | 把“继续调参”转成可检查的研究决策 |
-| 正在写论文、投稿或整理研究资产 | [研究生阶段导航](docs/graduate-roadmap.md) → [Prism 与 Overleaf](docs/prism-overleaf.md) → [科研绘图](docs/research-plotting.md) → [投稿与 Rebuttal](docs/submission-rebuttal.md) | 让主张、证据、图表、版本和回应保持一致 |
+| 正在写论文、选择 venue 或准备投稿 | [研究生阶段导航](docs/graduate-roadmap.md) → [顶会、顶刊与 CCFDDL](docs/venues-deadlines.md) → [Prism 与 Overleaf](docs/prism-overleaf.md) → [投稿与 Rebuttal](docs/submission-rebuttal.md) | 让投稿目标、主张、证据、版本和回应保持一致 |
 
 ## 第一个研究项目的最小路线
 
@@ -59,13 +59,14 @@ GradToolKit 是一个面向 **AI 与实证型计算机研究** 的科研入门�
 | --- | --- | --- |
 | 科研新人入口 | 不知道科研每天做什么 | [30 天路线](docs/first-30-days.md)、[方向调研](docs/direction-mapping.md)、[Baseline 复现](docs/baseline-reproduction.md)、[第一次组会](docs/weekly-meeting-case.md)、[论文阅读](docs/paper-reading.md) |
 | 严格科研方法 | 有 idea 和实验，但无法形成可信结论 | [问题定义](docs/problem-formulation.md)、[Novelty 审计](docs/idea-audit.md)、[实验设计](docs/experiment-design.md)、[失败诊断](docs/research-debugging.md) |
-| AI 辅助科研 | 想提高效率，但不想外包研究判断 | [总则与核验闭环](docs/ai-research-tools.md)、[文献工作流](docs/ai-literature-workflow.md)、[Idea 与实验审查](docs/ai-idea-experiment-review.md)、[代码与数据分析](docs/ai-coding-data-analysis.md)、[写作与引用核验](docs/ai-writing-citation.md)、[隐私与规范](docs/ai-privacy-ethics.md) |
-| 阶段与投稿导航 | 不知道不同阶段应沉淀什么 | [研究生阶段导航](docs/graduate-roadmap.md)、[论文写作](docs/thesis-writing.md)、[投稿与 Rebuttal](docs/submission-rebuttal.md)、[实习求职](docs/internship-tools.md) |
+| AI 辅助科研 | 想提高效率，但不想外包研究判断 | [总则与核验闭环](docs/ai-research-tools.md)、[文献工作流](docs/ai-literature-workflow.md)、[Idea 与实验审查](docs/ai-idea-experiment-review.md)、[AI 编程与 API](docs/ai-programming-api.md)、[代码与数据分析](docs/ai-coding-data-analysis.md)、[写作与引用核验](docs/ai-writing-citation.md)、[隐私与规范](docs/ai-privacy-ethics.md) |
+| 阶段与投稿导航 | 不知道不同阶段应沉淀什么、投向哪里 | [研究生阶段导航](docs/graduate-roadmap.md)、[顶会、顶刊与 CCFDDL](docs/venues-deadlines.md)、[论文写作](docs/thesis-writing.md)、[投稿与 Rebuttal](docs/submission-rebuttal.md)、[实习求职](docs/internship-tools.md) |
 
 ## 工具指南
 
 工具按科研任务组织，不按品牌堆积：
 
+- [AI 辅助编程与 DeepSeek API 接入](docs/ai-programming-api.md)
 - [Prism 与 Overleaf：AI LaTeX 写作工作流](docs/prism-overleaf.md)
 - [科研绘图：从原始数据到可复现图表](docs/research-plotting.md)
 - [实验工具选择：Git、W&B、MLflow、Hydra、DVC 与 Docker](docs/experiment-tools.md)
@@ -86,7 +87,7 @@ AI 应放进以下闭环：
 → 研究者作出决定
 ```
 
-不要让 AI 判断“从未有人做过”、生成未核验引用、编造实验结果，或在没有运行证据时声称代码已经修复。可直接使用的工作流见 [AI 辅助科研专题](docs/ai-research-tools.md) 和 [提示词与核验模板](docs/ai-prompt-templates.md)。
+不要让 AI 判断“从未有人做过”、生成未核验引用、编造实验结果，或在没有运行证据时声称代码已经修复。可直接使用的工作流见 [AI 辅助科研专题](docs/ai-research-tools.md)、[AI 编程与 API](docs/ai-programming-api.md) 和 [提示词与核验模板](docs/ai-prompt-templates.md)。
 
 ## 模板库
 
